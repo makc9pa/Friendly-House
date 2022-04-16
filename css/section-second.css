@@ -1,0 +1,82 @@
+.section-second__form {
+    width: 780px;
+    margin: 0 auto;
+    background-color: #F2F0F1;
+    border-radius: 20px;
+}
+
+.section-second__container-form {
+    padding: 50px 100px;
+}
+
+.section-second__subject {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ff8a00;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: "Comfortaa";
+    font-weight: 400;
+}
+
+.section-second__text {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section-second__text_color {
+    color: #FF8A00;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.section-second__container-form-feedback {
+    display: inline-flex;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+
+.section-second__container-phone {
+    margin-right: 20px;
+}
+
+.section-second__container-phone label {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.section-second__container-email label {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.section-second__phone,
+.section-second__email {
+    width: 280px;
+    border: 0px;
+}
+
+.section-second__container-button {
+    width: 80px;
+    height: 90px;
+    float: right;
+    background: url('../img/paw-icon.svg');
+    /* background-position: 0px; */
+    background-repeat: no-repeat;
+}
+
+.section-second__container-button span {
+    display: block;
+    padding-top: 68px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 550;
+    line-height: 16px;
+    color: #FF8A00;
+}
+
+.section-second__clearfix {
+    clear: both;
+}

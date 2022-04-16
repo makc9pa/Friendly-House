@@ -1,0 +1,8 @@
+.header-section {
+    width: 480px;
+    height: 240px;
+}
+
+.header-section__text:not(:last-child) {
+    margin-bottom: 40px;
+}

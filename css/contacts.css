@@ -1,0 +1,31 @@
+.contacts__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.contacts__elem {
+    display: inline-flex;
+    font-weight: 550;
+}
+
+.contacts__elem-first {
+    background: url('../img/phone-icon.svg');
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+.contacts__elem-second {
+    background: url('../img/envelope-icon.svg');
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+.contacts__elem p {
+    padding-left: 35px;
+}
+
+.contacts__elem:not(:last-child) {
+    margin-right: 45px;
+}
